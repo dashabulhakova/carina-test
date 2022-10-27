@@ -1,0 +1,23 @@
+[2022-10-27 01:04:55] [1] [INFO] 
+============= Test configuration =============
+url=https://www.gsmarena.com
+env=DEMO
+auto_screenshot=true
+project_report_directory=./reports
+max_screen_history=10
+localization_encoding=UTF-8
+selenium_url=
+
+------------- Driver capabilities -----------
+================================================
+
+[2022-10-27 01:04:55] [1] [WARN] Reporting disabled: using no op test run registrar
+[2022-10-27 01:04:56] [1] [INFO] Reflections took 1026 ms to scan 11 urls, producing 2608 keys and 12720 values 
+[2022-10-27 01:04:56] [1] [INFO] [TestNG] Running:
+  /Users/dashabull/Library/Caches/JetBrains/IdeaIC2022.2/temp-testng-customsuite.xml
+
+[2022-10-27 01:04:56] [1] [INFO] Set thread-count=1
+[2022-10-27 01:04:56] [1] [INFO] Set data-provider-thread-count=1
+[2022-10-27 01:04:56] [1] [INFO] CARINA_CORE_VERSION: 7.4.26
+[2022-10-27 01:05:08] [1] [INFO] INFO: '**************** Test execution summary ****************'.
+[2022-10-27 01:05:08] [1] [INFO] RESULT #1: TEST [carina-test - testCreateUser] PASS [log=file:///Users/dashabull/IdeaProjects/carina-test/./reports/1666832695519/8fd7e61c-6211-415f-abe9-d479e97da5da/test.log]

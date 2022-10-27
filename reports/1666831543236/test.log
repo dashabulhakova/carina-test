@@ -1,0 +1,79 @@
+[2022-10-27 12:45:43] [1] [INFO] [TestNG] Running:
+  /Users/dashabull/Library/Caches/JetBrains/IdeaIC2022.2/temp-testng-customsuite.xml
+
+[2022-10-27 12:45:45] [1] [INFO] Request method:	GET
+Request URI:	https://v2.jokeapi.dev/categories
+Request params:	<none>
+Query params:	<none>
+Form params:	<none>
+Path params:	<none>
+Multiparts:		<none>
+Cookies:		<none>
+Headers:		Accept=*/*
+				format=json
+				Content-Type=application/json; charset=UTF-8
+Body:			<none>
+HTTP/1.1 200 OK
+Date: Thu, 27 Oct 2022 00:45:45 GMT
+Content-Type: application/json; charset=UTF-8
+Content-Length: 598
+Connection: keep-alive
+CF-Ray: 76076924d986b3cb-MIA
+Access-Control-Allow-Origin: *
+Allow: GET, POST, HEAD, OPTIONS, PUT
+Cache-Control: no-cache, no-store, must-revalidate, no-transform
+Expires: 0
+Retry-After: 60
+Strict-Transport-Security: max-age=15552000
+CF-Cache-Status: DYNAMIC
+access-control-allow-headers: *
+access-control-allow-methods: GET, POST, HEAD, OPTIONS, PUT
+access-control-request-method: GET
+api-info: JokeAPI v2.3.2 (https://v2.jokeapi.dev)
+content-security-policy: default-src https: 'unsafe-eval' 'unsafe-inline'; object-src 'none'
+pragma: no-cache
+ratelimit-limit: 120
+ratelimit-remaining: 119
+ratelimit-reset: Thu Oct 27 2022 02:46:45 GMT+0200 (Central European Summer Time)
+referrer-policy: no-referrer, strict-origin-when-cross-origin
+x-content-type-options: nosniff
+x-frame-options: SAMEORIGIN
+x-xss-protection: 1; mode=block
+Report-To: {"endpoints":[{"url":"https:\/\/a.nel.cloudflare.com\/report\/v3?s=qm3jn5Hh0ql9wlt%2Bp2CnD5e2Yr2q5obe%2BFLVMrADlkcq7N7YPuaP9IfhR8OG1ba8cXvuLWga3%2B9xseEW2qSmqUMwMYanqTlUPe%2Bvt3nbNfsrFGZISSpgRqHTPfUnFHPmFA%3D%3D"}],"group":"cf-nel","max_age":604800}
+NEL: {"success_fraction":0,"report_to":"cf-nel","max_age":604800}
+Vary: Accept-Encoding
+Server: cloudflare
+alt-svc: h3=":443"; ma=86400, h3-29=":443"; ma=86400
+
+{
+    "error": false,
+    "categories": [
+        "Any",
+        "Misc",
+        "Programming",
+        "Dark",
+        "Pun",
+        "Spooky",
+        "Christmas"
+    ],
+    "categoryAliases": [
+        {
+            "alias": "Miscellaneous",
+            "resolved": "Misc"
+        },
+        {
+            "alias": "Coding",
+            "resolved": "Programming"
+        },
+        {
+            "alias": "Development",
+            "resolved": "Programming"
+        },
+        {
+            "alias": "Halloween",
+            "resolved": "Spooky"
+        }
+    ],
+    "timestamp": 1666831545183
+}
+

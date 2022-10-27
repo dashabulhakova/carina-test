@@ -1,0 +1,23 @@
+[2022-10-27 02:09:13] [1] [INFO] 
+============= Test configuration =============
+url=https://www.gsmarena.com
+env=DEMO
+auto_screenshot=true
+project_report_directory=./reports
+max_screen_history=10
+localization_encoding=UTF-8
+selenium_url=
+
+------------- Driver capabilities -----------
+================================================
+
+[2022-10-27 02:09:14] [1] [WARN] Reporting disabled: using no op test run registrar
+[2022-10-27 02:09:16] [1] [INFO] Reflections took 1660 ms to scan 11 urls, producing 2608 keys and 12721 values 
+[2022-10-27 02:09:16] [1] [INFO] [TestNG] Running:
+  /Users/dashabull/Library/Caches/JetBrains/IdeaIC2022.2/temp-testng-customsuite.xml
+
+[2022-10-27 02:09:16] [1] [INFO] Set thread-count=1
+[2022-10-27 02:09:16] [1] [INFO] Set data-provider-thread-count=1
+[2022-10-27 02:09:16] [1] [INFO] CARINA_CORE_VERSION: 7.4.26
+[2022-10-27 02:09:24] [1] [INFO] INFO: '**************** Test execution summary ****************'.
+[2022-10-27 02:09:24] [1] [INFO] RESULT #1: TEST [carina-test - testGetAllDogs] FAIL [log=file:///Users/dashabull/IdeaProjects/carina-test/./reports/1666836553382/a5b28ac8-d490-422f-95f4-0b068eac5c33/test.log]
